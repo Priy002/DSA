@@ -1,3 +1,11 @@
+'''
+Heapsort is a comparison based sorting technique based on a Binary Heap data structure. 
+It is similar to selection sort where we first find the maximum element and place the maximum element at the end.
+We repeat the same process for the remaining element.
+'''
+
+
+
 # Python program for implementation of heap Sort
 
 # To heapify subtree rooted at index i.
@@ -45,5 +53,5 @@ n = len(arr)
 print ("Sorted array is")
 for i in range(n):
 	print ("%d" %arr[i]),
-# This code is contributed by Mohit Kumra
+# Time Complexity: O(n logn)
 
